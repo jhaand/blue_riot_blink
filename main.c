@@ -6,9 +6,9 @@ int main(void)
 {
     while(1) {
         LED0_ON;
-        xtimer_usleep(500000);
+        xtimer_sleep(5);
         LED0_OFF;
-        xtimer_usleep(500000);
+        xtimer_sleep(1);
     }
     return 0;
 
