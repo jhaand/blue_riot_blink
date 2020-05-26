@@ -11,7 +11,7 @@ USEMODULE += xtimer
 
 # Programming dependencies
 SRST ?= none
-STLINK_VERSION = 2
+#STLINK_VERSION = 2
 
 # Start the normale build process
 include $(RIOTBASE)/Makefile.include
