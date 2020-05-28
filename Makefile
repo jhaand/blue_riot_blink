@@ -3,8 +3,8 @@
 ##
 
 APPLICATION = blue_riot_blinky
-BOARD = bluepill
-RIOTBASE = $(CURDIR)/../RIOT
+BOARD       = bluepill
+RIOTBASE    = $(CURDIR)/../RIOT
 QUIET ?= 1
 
 USEMODULE += xtimer
