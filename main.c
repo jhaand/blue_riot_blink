@@ -5,8 +5,10 @@
 int main(void)
 {
     while(1) {
+        printf("Onboard LED goes  ON.\n");
         LED0_ON;
         xtimer_sleep(5);
+        printf("Onboard LED goes OFF.\n");
         LED0_OFF;
         xtimer_sleep(1);
     }
